@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.imge{
+    height: 700px;
+    width: 100%;
+}
+.menu{
+    border: 2px solid yellow;
+    /* background: transparent; */
+    background-color: orange;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    font-size: larger;
+    padding: 15px 10px;
+    border-radius :25px; ;
+    list-style: none;
+    text-decoration: none;
+    margin-left:40%;
+}
+.me{
+    text-decoration: none;
+    color:rgb(17, 17, 17) ;
+    
+}
+.me:hover{
+    color: rgb(245, 11, 11);
+}

@@ -1,0 +1,276 @@
+.burgar{
+    display: none;
+    position: absolute;
+    cursor:pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: rgb(8, 8, 8);
+    height: 4px;
+    margin: 5px 3px;
+}
+@media(  max-width:393px) {
+    .second{
+        flex-direction: column;
+    }
+    .left,.center,.right{
+        width: 85%;
+    }
+    .third{
+        flex-direction: column;
+    }
+    .one,.seconds,.three,.four,.five {
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center, .right {
+        margin-left: 0px;
+    }
+    .more{
+        margin-left: 43%;
+        margin-top: 04%
+        /* margin-bottom: 4%; */
+    }
+    .location,.rr{
+        flex-direction: column;
+    }
+    .aa,.b,.c,.d,.rawal,.sindh{
+        margin: auto;
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    .bug,.donut,.drink,.frise{
+        margin-left: 17%;
+    }
+    .piz{
+        margin-left: 23%;
+    }
+    .si{
+        margin-left: 12%; 
+    }
+    .fri{
+        margin-left: 18%;
+    }
+    .frise,.zing{
+        margin-left: 16%;
+    }
+    .bug{
+        margin-left: 15%;
+
+}
+.burgar{
+    display: block;
+}
+.v-class{
+    visibility: hidden;
+}
+.h-nav{
+    height: 60px;
+}
+}
+ @media ( min-width:280px) and (  max-width:414px) {
+    .second{
+        flex-direction: column;
+    }
+    .left,.center,.right{
+        width: 85%;
+    }
+    .third{
+        flex-direction: column;
+    }
+    .one,.seconds,.three,.four,.five {
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center, .right {
+        margin-left: 0px;
+    }
+    .more{
+        margin-left: 43%;
+        margin-top: 04%
+    }
+    .location,.rr{
+        flex-direction: column;
+    }
+    .aa,.b,.c,.d,.rawal,.sindh{
+        margin: auto;
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    .bug,.donut,.drink,.frise{
+        margin-left: 20%;
+    }
+    .piz{
+        margin-left: 25%;
+    }
+    .si{
+        margin-left: 15%;
+    }
+    .fri{
+        margin-left: 20%;
+    }
+    .frise,.zing{
+        margin-left: 19%;
+    }
+    .bug{
+        margin-left: 18%;
+    }
+    .pizza,.sand,.imgl{
+        height: 150px;
+    }
+    h1{
+        padding-top: 65%;
+    }
+    .burgar{
+        display: block;
+    }
+    .v-class{
+        visibility: hidden;
+    }
+    .h-nav{
+        height: 60px;
+    }
+}
+    /* @media (  max-width:375px){
+        .bug,.donut,.drink,.frise{
+            margin-left: 16%;
+        }
+        .piz{
+            margin-left: 23%;
+        }
+        .si{
+            margin-left: 12%; 
+        }
+        .fri{
+            margin-left: 18%;
+        }
+        .frise,.zing{
+            margin-left: 16%;
+        }
+        .bug{
+            margin-left: 15%;
+    }
+    } */
+    @media ( min-width:540px) and (  max-width:912px){
+h1{
+    padding-top: 50%;
+}
+.pizza,.sand,.imgl{
+    height: 130px;
+}
+.bug,.donut,.drink,.frise,.zing,.fri, .si, .piz{
+    height: 90px;
+}
+.zing,.frise{
+    width: 120px;
+}
+.aa,.rawal,.sindh,.b,.c,.d{
+    margin: 2%;
+    width: 30%;
+}
+.heading{
+    padding-top: 40%;
+}
+.burgar{
+    display: block;
+}
+.v-class{
+    visibility: hidden;
+}
+.h-nav{
+    height: 60px;
+}
+    }
+    @media ( max-width:280px){
+        .bug,.si,.donut,.drink,.fri,.frise,.zing{
+            height: 130px;
+            margin-left: 9%;
+    }
+    .piz{
+        margin-left: 15%;
+    }
+    .si{
+        margin-left: 6%;
+    }
+    .donut,.drink{
+        margin-left: 11%;
+    }
+    .fri{
+        margin-left: 13%;
+    }
+    .frise,.zing{
+        margin-left: 4%;
+    }
+    .order{
+        margin-left: 10%;
+        margin-top: 09%;
+    }
+    h1{
+        padding-top: 40%;
+    }
+}
+@media ( min-width:415px) and (  max-width:540px){
+    .pizza,.sand,.imgl{
+        height: 80px;
+    }
+    .left,.right,.center{
+        padding: 4%;
+    }
+    .bug, .donut, .drink, .frise, .zing, .fri, .si, .piz {
+        height: 56px;
+    }
+    .zing, .frise {
+        width: 76px;
+    }
+    .burgar{
+        display: block;
+    }
+    .v-class{
+        visibility: hidden;
+    }
+    .h-nav{
+        height: 60px;
+    }
+}
+@media ( min-width:914px) and (  max-width:1025px){
+    .bug{
+        height: 120px;
+        margin-left: 7%;
+    }
+    .piz {
+        height: 120px;
+        /* width: 100px; */
+        margin-left: 19%;
+        /* margin-left: 100%; */
+    }
+    .si {
+        height: 120px;
+        margin-left: 3%;
+    }
+    .donut ,.drink{
+        height: 120px;
+        margin-left: 8%;
+    }
+    .fri {
+        height: 120px;
+        margin-left: 11%;
+    }
+    .zing ,.frise{
+        height: 120px;
+        margin-left: 10%;
+        width: 154px;
+    }
+    .burgar{
+        display: block;
+    }
+    .v-class{
+        visibility: hidden;
+    }
+    .h-nav{
+        height: 60px;
+    }
+}
